@@ -4,11 +4,12 @@ body{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* --- DEBUG --- */
 
-.debug header{
+/* .debug header{
     background-color: #add8e6;
 }
 .debug .header-top .container{
@@ -24,12 +25,6 @@ body{
 .debug section .row >*{
     border: 2px dashed;
 }
-.debug .col-big{
-    background-color: #1e90ff;
-}
-.col-small{
-    background-color: #ffc0cb;
-}
 .debug .header-bottom{
     background-color: #00008b;
     height: 500px;
@@ -37,11 +32,6 @@ body{
 .debug .header-bottom .box-pink{
     background-color: #ee82ee;
     height: 100%;
-    border: 2px dashed;
-}
-.debug section:last-child .container {
-    height: 900px;
-    background-color: green;
     border: 2px dashed;
 }
 .debug footer {
@@ -72,7 +62,7 @@ body{
     background-color: #ffb6c1;
     border: 2px dashed;
     padding: 0 5px;
-}
+} */
 
 /* --- COMMON --- */
 
@@ -89,7 +79,9 @@ body{
 .row{
     display: flex;
 }
-
+h1, h2{
+    font-size: 50px;
+}
 /* --- BUTTON --- */
 .btn{
     padding: 5px 10px;
@@ -99,6 +91,15 @@ body{
 .btn-black{
     background-color: #23272a;
     color: white;
+}
+.btn-blu{
+    background-color: #7289da;
+    color: white;
+}
+
+.container > .btn-blu{
+    padding: 10px 15px;
+    font-size: large;
 }
 /* --- HEADER --- */
 
@@ -151,13 +152,17 @@ section:nth-child(2n){
     background-color: #d3d3d3;
 }
 .col-big{
-    width: 60%;
+    width: 70%;
 }
 
 .col-small{
-    width: 40%;
+    width: 30%;
+    text-align: left;
 }
-
+section:last-child .container {
+    height: auto;
+    text-align: center;
+}
 
 /* --- FOOTER --- */
 
