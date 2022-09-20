@@ -34,7 +34,7 @@ body{
     height: 100%;
     border: 2px dashed;
 }
-.debug footer {
+ footer {
     background-color: #23272a;
 }
 
@@ -166,6 +166,10 @@ section:last-child .container {
 
 /* --- FOOTER --- */
 
+footer {
+    background-color: #23272a;
+    color: white;
+}
 .footer-top{
     padding: 10px 0 30px 0;
 }
@@ -181,4 +185,32 @@ section:last-child .container {
 .footer-bottom .row{
     justify-content: space-between;
     align-items: center;
+}
+.ita{
+    display: inline-block;
+    background-image: url(../img/ita.png);
+    background-size: cover;
+    height: 20px;
+    width: 30px;
+}
+.col-small > .ita{
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.col-small > h2{
+    color: #7289da;
+}
+.footer-bottom > .container{
+    border-top: 2px solid #7289da;
+    padding-top: 20px;
+}
+.title{
+    color: #7289da;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 15px;
 }
