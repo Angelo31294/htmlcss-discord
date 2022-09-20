@@ -163,7 +163,10 @@ section:last-child .container {
     height: auto;
     text-align: center;
 }
-
+h3{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
 /* --- FOOTER --- */
 
 footer {
